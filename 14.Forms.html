@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Input</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name"><br>
+        <label for="tc">TC No</label><br>
+        <input type="text" id="tc" name="tc" maxlength="11"><br>
+        <label for="email">E-mail</label> <br>
+        <input type="email" id="email" name="email" placeholder="******@gmail.com"><br>
+        <label for="pass">Password</label><br>
+        <input type="password" id="password" name="pass"><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date"><br>
+
+        Gender<br>
+
+        <input type="radio" name="gener" value="male">
+        Male
+        <input type="radio" name="gener" value="female">
+        Female
+        <input type="radio" name="gender" value="other" checked>
+        Other <br>
+
+        Hoobies <br>
+        <input type="checkbox" name="tech" id="tech">
+        Technology
+        <input type="checkbox" name="music" id="music">
+        Music
+        <input type="checkbox" name="art" id="art">
+        Art<br>
+
+        Degree<br>
+       <select name="degree" id="degree">
+           <option value="bachelor" selected>Lisans</option>
+           <option value="msc">Yüksek Lisans</option>
+           <option value="phd">Doktora</option>
+
+       </select><br>
+       Açıklama<br>
+       <textarea name="message" id="message" rows="10"cols="30" placeholder="Detaylı olarak yazınız"></textarea><br>
+    
+       <input type="submit" value="Submit" name="submit" id="submit">
+       <input type="reset" value="Sıfırla" id="reset" name="reset">
+    </form>
+</body>
+
+</html>
