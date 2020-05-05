@@ -1,0 +1,76 @@
+/* Text center */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+    
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-green{
+background:  #2F3D2C;
+}
+.bg-light-green{
+    background: #B8D086;
+}
+/*Buttons */
+
+.btn{
+    margin-top: 1.25rem; 
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background: #B8D086;
+}
+.btn-primary:hover{
+    color: #B8D086;
+    background: white;
+    border:0.5px solid #B8D086;
+}
+.btn-dark{
+    background: #2F3D2C;
+}
+.btn-dark:hover {
+    color: #2F3D2C;
+    background: white;
+    border: 0.5px solid #2F3D2C;
+}
+
+.btn-block{
+    width: 25%;
+    text-align: center;
+}
+/*Forms */
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+
+}
+
+/* Container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
